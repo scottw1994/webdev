@@ -1,1 +1,135 @@
+/************************TAG SELECTORS************************/
+a {
+  color: #11999E;
+}
+body {
+  font-family: 'Montserrat'sans-serif;
+  text-align: center;
+  margin: 0;
+}
 
+h1 {
+  /* below is an example of rem, if I just used % or rem, the value here would also inherit any parent values. but using r(route)em, it only uses the value specified*/
+  line-height: 1.5;
+  color: #66BFBF;
+  font-size: 6.625rem;
+  margin: 60px auto 0 auto;
+  font-family: 'Yellowtail', serif;
+
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+}
+
+div {
+  background-color: #9AE66E;
+}
+
+/************************CLASS SELECTORS************************/
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 335px;
+}
+
+.bottom-container {}
+
+.rightgear {
+  position: absolute;
+  right: 20px;
+  height: 90px;
+  width: 90px;
+}
+
+.robotleft {
+  position: absolute;
+  left: 20px;
+  height: 90px;
+  width: 90px;
+}
+.robotright {
+  position: absolute;
+  right: 20px;
+  height: 90px;
+  width: 90px;
+}
+
+.leftgear {
+  position: absolute;
+  left: 20px;
+  height: 90px;
+  width: 90px;
+}
+
+.mechanical{
+  border-radius: 100%;
+  height: 220px;
+  width: 220px;
+  opacity: 0.6;
+}
+
+.middle-container {}
+
+.myskills {
+  font-weight: 900;
+  font-style: italic;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+.programm {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: fantasy;
+}
+.robot{
+  border-radius: 100%;
+  height: 220px;
+  width: 220px;
+  opacity: 0.6;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+.web {
+  border-radius: 100%;
+  height: 220px;
+  width: 220px;
+  opacity: 0.6;
+}
+.webleft {
+  position: absolute;
+  left: 20px;
+  height: 90px;
+  width: 90px;
+}
+.webright {
+  position: absolute;
+  right: 20px;
+  height: 90px;
+  width: 90px;
+}
