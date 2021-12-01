@@ -2,20 +2,27 @@
 a {
   color: #11999E;
 }
+
 body {
   font-family: 'Montserrat'sans-serif;
   text-align: center;
   margin: 0;
 }
 
+hr {
+  border-width: 5px;
+  border-style: dotted none none;
+  color: #EAF6F6;
+  width: 4%;
+}
+
 h1 {
   /* below is an example of rem, if I just used % or rem, the value here would also inherit any parent values. but using r(route)em, it only uses the value specified*/
   line-height: 1.5;
   color: #66BFBF;
-  font-size: 6.625rem;
+  font-size: 4.625rem;
   margin: 60px auto 0 auto;
   font-family: 'Yellowtail', serif;
-
 }
 
 h2 {
@@ -30,17 +37,61 @@ h3 {
 }
 
 div {
-  background-color: #9AE66E;
+  background-color: #DEDEDE;
 }
 
 /************************CLASS SELECTORS************************/
+.btn {
+  background: #171a18;
+  background-image: -webkit-linear-gradient(top, #171a18, #8a9191);
+  background-image: -moz-linear-gradient(top, #171a18, #8a9191);
+  background-image: -ms-linear-gradient(top, #171a18, #8a9191);
+  background-image: -o-linear-gradient(top, #171a18, #8a9191);
+  background-image: linear-gradient(to bottom, #171a18, #8a9191);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.bio-text-colour {
+  color: #40514E;
+}
+
 .bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 335px;
 }
 
-.bottom-container {}
+.bottom-container {
+  padding-top: 10px;
+  background-color: #66BFBF;
+  height: 120px;
+}
+
+.contact-me {
+  padding-bottom: 60px;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+}
 
 .rightgear {
   position: absolute;
@@ -55,11 +106,28 @@ div {
   height: 90px;
   width: 90px;
 }
+
 .robotright {
   position: absolute;
   right: 20px;
   height: 90px;
   width: 90px;
+}
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  padding-bottom: 30px;
+  margin: 100px auto 100px auto;
+  width: 50%
+}
+
+.skill-row-robot {
+  line-height: 2;
+  text-align: right;
+  padding-bottom: 60px;
+  margin: 100px auto 100px auto;
+  width: 50%
 }
 
 .leftgear {
@@ -69,10 +137,13 @@ div {
   width: 90px;
 }
 
-.mechanical{
+.mechanical {
+  color: #9AE66E;
   border-radius: 100%;
   height: 220px;
-  width: 220px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
   opacity: 0.6;
 }
 
@@ -81,7 +152,6 @@ div {
 .myskills {
   font-weight: 900;
   font-style: italic;
-
 }
 
 .pro {
@@ -93,15 +163,20 @@ div {
   height: 150px;
   width: 150px;
 }
+
 .programm {
   color: #66BFBF;
   font-size: 2.5rem;
   font-family: fantasy;
 }
-.robot{
+
+.robot {
+  background-color: #9AE66E;
   border-radius: 100%;
   height: 220px;
-  width: 220px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
   opacity: 0.6;
 }
 
@@ -112,21 +187,29 @@ div {
 }
 
 .top-container {
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
+
 .web {
+  background-color: #9AE66E;
   border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
   height: 220px;
-  width: 220px;
+  width: 25%;
   opacity: 0.6;
 }
+
 .webleft {
   position: absolute;
   left: 20px;
   height: 90px;
   width: 90px;
 }
+
 .webright {
   position: absolute;
   right: 20px;
